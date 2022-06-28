@@ -1,0 +1,25 @@
+<div style="display: flex; justify-content: space-around; color: white; height: 100%;">
+    <div class="team-box">
+        <div><img style="width: 100%;" src="logo.png" alt=""></div>
+        <form action="/teamselection" method="POST">
+            <div class="team-c">
+                <input type="checkbox" name="Team" id="" value="Team1" onChange="this.form.submit()" />Steve and Dustin
+            </div>
+            <div class="team-c">
+                <input type="checkbox" name="Team" id="" value="Team2" onChange="this.form.submit()" />Will and Nancy
+            </div>
+            <div class="team-c">
+                <input type="checkbox" name="Team" id="" value="Team3" onChange="this.form.submit()" />Max and Billy
+            </div>
+            <div class="team-c">
+                <input type="checkbox" name="Team" id="" value="Team4" onChange="this.form.submit()" />Lucas and Hopper
+            </div>
+            <div class="team-c">
+                <input type="checkbox" name="Team" id="" value="Team5" onChange="this.form.submit()" />Mike and Jonathan
+            </div>
+            
+            
+            <input type="hidden" name="user" value="<%=user%>">
+        </form>
+    </div>
+    <hr>

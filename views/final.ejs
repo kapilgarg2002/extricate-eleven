@@ -1,0 +1,73 @@
+<%-include("partials/header")-%>
+<div style="color: #fff;">
+    <div class="b1">
+        <h1>Story</h1>
+        <p>
+           <p>Hawkins National Lab</p>
+            As all the five teams when collected rushed towards the Hawkins National lab to save Eleven from the danger she was in.
+            The lab which used to be an active place with personnel moving in and out now set the perfect landscape for a ghost
+            town. Everyone was a little shocked to see this but wasted little time since they had only one motive, and that was to
+            save Eleven. The whole floor was interspersed by the bodies of scientists, it was bone-chilling. Upon reaching the final
+            door and then entering the passcode which was found by Will and Nancy, they successfully unlocked the door but were
+            greeted by a Demogorgon which explained all the destruction and dead bodies all over the Hawkins lab. While everyone
+            tried to distract the Demogorgon, Will and Mike tried to search for Eleven, but, to their disappointment, they couldn’t
+            find her. Mike came across a wall which had a rift on it and beside it, there was a big red button, and he instantly
+            knew what he had to do. Without any second thought, he pressed the red button and to their surprise a door opened
+            revealing Eleven laying there unconscious. Now the only task was to get out of the Hawkins Lab and close the doorway of
+            the upside-down.
+
+        </p>
+        <button class="btn btn-md btn-warning" id="next">next</button>
+    </div>
+    
+    
+    
+    
+    <div class="hidden b2">
+        <h1>Question Number 11</h1>
+        <p>
+            <p>Scientist and we are playing a game on a matrix, consisting of 2 rows and m columns. The cell in the i-th row in the
+            j-th column contains ai,,j coins in it.</p>
+            <p>Initially, both scientist and us are standing in a cell (1,1). They are going to perform a sequence of moves to reach a
+            cell (2,m).</p>
+            <p>The possible moves are:</p>
+            <p>• Move right — from some cell (x,y) to (x,y+1);</p>
+            <p>• Move down — from some cell (x,y) to (x+1,y).</p>
+            <p>First, the scientists make all their moves until they reach (2,m). They hide the batteries in all cells they visit
+            (including the starting cell).
+            When they finish, we start our journey. We also perform the moves to reach (2,m) and collect the batteries in all cells
+            that we visited, but scientists didn't.
+            The score of the game is the total number of batteries we collect.
+            Scientists want to minimize the score. We want to maximize the score. What will the score of the game be if both players
+            play optimally?</p>
+            
+            Input
+            <p>1</p> 
+            <p>10</p>
+            <p>53 56 22 90 32 74 3 45 11 99</p>
+            <p>82 61 9 4 11 55 9 56 77 11</p>
+            
+
+        </p>
+        <form action="/answer" method="post">
+            <input type="text" name="Solution" id="" />
+            <input type="hidden" name="user" value="<%=user%>">
+            <input type="hidden" name="teamnumber" value="<%=Teamnumber%>">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+<%-include("partials/footer")-%>
+
+
+
+
+
+
+
+
+
+<%-include("partials/footer")-%>

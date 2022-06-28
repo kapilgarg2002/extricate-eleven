@@ -1,0 +1,32 @@
+<%-include("partials/header")-%>
+<%-include("partials/teams")-%>
+
+<div class="right">
+  <div class="b1">
+    <h1>Story</h1>
+    <p><%=story%></p>
+    <button class="btn btn-md btn-warning" id="next">next</button>
+  </div>
+
+
+
+
+  <div class="hidden b2">
+    <h1>Problem Statement</h1>
+    <p>
+      <%= question %> 
+    </p>
+    <form action="/answer" method="post">
+      <input type="text" name="Solution" id=""/>
+      <input type="hidden" name="user" value="<%=user%>">
+      <input type="hidden" name="teamnumber" value="<%=Teamnumber%>">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form> 
+  </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+<%-include("partials/footer")-%>

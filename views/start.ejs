@@ -1,0 +1,31 @@
+<%-include("partials/header")-%>
+
+    <div>
+        <div class="b1" style="padding-top: 3%;">
+            <img src="logo.png" style="    width: 225px;
+                                margin: 0% 43% 2%;" alt="">
+        <p style="color: white;">
+            What would have otherwise been an enjoyable night turned out to be one of the most frightening experiences for everyone
+            present at the Wheeler’s house that day.
+            Mike opened his eyes and saw the state of the room, it was as if the house was rummaged by a storm. Mike instinctively
+            scanned the room for Eleven when his fears were confirmed. She was missing, they split themselves started looking for
+            eleven. While this was a failed initiative, they stumbled upon what looked like a torn piece of someone's uniform that
+            had the logo of Hawkins National Lab.
+            Since Mr. and Mrs. Wheeler were out of town, the kids decided to call Detective Hopper along with Jonathan, Steve, and
+            Billy for help. As soon as Hopper arrived, he told everyone that Hawkins Lab increased their security and only
+            authorized personnel are allowed into the premises. They have some high-level passcode authentication system. This
+            announcement robbed the room of any residual morale. However, the kids were determined to find their friend Eleven,
+            whose disappearance wasn't an accident and wasn't unplanned either. They decided to split up into five teams of 2
+            members each that would go about the town looking for anyone who could help them get into the lab or manage to sneak
+            into the lab by themselves.
+        </p>
+        <form action="/game" method="POST">
+            <input type="hidden" name="user" value="<%=user%>">
+            <button type="submit" class="btn btn-warning">Start</button>
+        </form>
+    </div>
+    </div>
+    
+
+
+    <%-include("partials/footer")-%>
