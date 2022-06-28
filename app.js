@@ -19,7 +19,7 @@ const moongoose = require("mongoose");
 
 
 
-moongoose.connect("mongodb+srv://kapil:kapil@cluster0.jxchm.mongodb.net/ISTE_EVENTDB"||"mongodb://localhost:27017/ISTE_EVENTDB", {
+moongoose.connect("mongodb+srv://kapil:kapil@cluster0.jxchm.mongodb.net/ISTE_EVENTDB", {
   useUnifiedTopology: true,
   useNewUrlParser: true,
 });
